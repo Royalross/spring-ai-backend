@@ -1,0 +1,53 @@
+# === Maven / Java Build ===
+target/
+*.log
+
+# === Spring Boot Secrets ===
+application.properties
+src/main/resources/application.properties
+application.yml
+.env
+*.env
+
+# === Maven Wrapper ===
+!.mvn/wrapper/maven-wrapper.jar
+
+# === Eclipse / STS ===
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# === Gradle / Kotlin (if ever used) ===
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# === VS Code ===
+.vscode/
+
+# === Ignore compiled class folders (redundant if target/ is ignored) ===
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# === Optional: Ignore temporary files ===
+*.swp
+*~
+.DS_Store
+Thumbs.db
