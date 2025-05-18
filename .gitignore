@@ -3,9 +3,6 @@ target/
 *.log
 
 # === Spring Boot Secrets ===
-application.properties
-src/main/resources/application.properties
-application.yml
 .env
 *.env
 
